@@ -29,15 +29,17 @@ export default {
 - Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
 - Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
 
-Despliegue del Backend
-Esta sección describe los pasos para desplegar el servicio de backend de NestJS.
+Despliegue del Frontend
+Esta sección describe los pasos para desplegar el servicio del frontend en Vercel.
 
-Inicio de sesión y Creación del Espacio de Trabajo: Iniciamos sesión en el proveedor de alojamiento y creamos un nuevo espacio de trabajo para el proyecto, llamado "programación_avanzada".
+Inicio de sesión: Se inició sesión en la plataforma de Vercel.
 
-Selección del Servicio: Se seleccionó un "Servicio Web" (Web Service) como el tipo de despliegue para alojar nuestro servidor web.
+Importación de Proyecto: Se seleccionó la opción de "Importar proyecto".
 
-Configuración:
+Conexión con GitHub: La cuenta de Vercel se conectó con la cuenta de GitHub para acceder a los repositorios.
 
-Configuramos los ajustes de CORS (Cross-Origin Resource Sharing) para permitir que el frontend realice solicitudes HTTP a la API del backend.
+Selección del Repositorio: Del repositorio de GitHub, se eligió el fork de 2025_proyecto_front_imc.
 
-Se instalaron las dependencias necesarias del proyecto para asegurar que el servidor funcione correctamente.
+Despliegue: Se importó el proyecto al hacer clic en "Importar".
+
+Configuración de la API: Una vez desplegado, se actualizó la URL de Axios en el código para que apuntara a la URL del backend recién desplegado, asegurando la comunicación entre ambos servicios.
