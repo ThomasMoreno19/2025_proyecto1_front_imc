@@ -28,3 +28,16 @@ export default {
 - Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
 - Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
 - Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+
+Despliegue del Backend
+Esta sección describe los pasos para desplegar el servicio de backend de NestJS.
+
+Inicio de sesión y Creación del Espacio de Trabajo: Iniciamos sesión en el proveedor de alojamiento y creamos un nuevo espacio de trabajo para el proyecto, llamado "programación_avanzada".
+
+Selección del Servicio: Se seleccionó un "Servicio Web" (Web Service) como el tipo de despliegue para alojar nuestro servidor web.
+
+Configuración:
+
+Configuramos los ajustes de CORS (Cross-Origin Resource Sharing) para permitir que el frontend realice solicitudes HTTP a la API del backend.
+
+Se instalaron las dependencias necesarias del proyecto para asegurar que el servidor funcione correctamente.
